@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>datasciencecoursera/README.md at master · rayryeng/datasciencecoursera</title>
+  <title>datasciencecoursera/PA1_template.Rmd at master · rayryeng/datasciencecoursera</title>
     <meta name="description" content="My work for the Data Science track on coursera">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/765375?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="rayryeng/datasciencecoursera" /><meta property="og:url" content="https://github.com/rayryeng/datasciencecoursera" /><meta property="og:description" content="datasciencecoursera - My work for the Data Science track on coursera" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzA0MTMxNDI1OjAyYWQ3YTVmYTEwMDFjNDc4ZmExMTY2YmFmNTAwOThkNjFmNjVkNDIxN2YzOGIxYTcwZjlkZWEzOTg2NGEzMTk=--2cbe47a58c1a4837f0156eb67ff4134f025687fd">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzA0MTMxNDI1OmU2NTUxYThmNDQ1YmY3MGNmODkxZWQ3NDAwY2ViZGZkYjZlN2RjM2FlYjM5ZjA2NTE3ZWVkZDQyZmQzOGQ0ZWI=--4c281c81f29ffc8741f96b518829174321a78486">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="1CCC:1254:B1B3BD:14BF0A2:5B79AB73" data-pjax-transient>
+  <meta name="request-id" content="1CCC:1254:B18396:14BACB9:5B79AB06" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="1CCC:1254:B1B3BD:14BF0A2:5B79AB73" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="34568892" /><meta name="octolytics-actor-login" content="Swathibp" /><meta name="octolytics-actor-hash" content="b1956a963ecd7931c5406ac94a52e9094f9b6338873e2d184243e333c0436f6c" />
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="1CCC:1254:B18396:14BACB9:5B79AB06" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="34568892" /><meta name="octolytics-actor-login" content="Swathibp" /><meta name="octolytics-actor-hash" content="b1956a963ecd7931c5406ac94a52e9094f9b6338873e2d184243e333c0436f6c" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="Swathibp">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MGJjYjY5Zjc4NzI1MDlkNzFkOGI2ZjVkZTU0YTkyMGMxZGIzNzk0ZDQwNDE4YTY3M2IwNTIzM2U4ZTJkNzIxMHx7InJlbW90ZV9hZGRyZXNzIjoiMjIzLjE4Ni43NC4yMDMiLCJyZXF1ZXN0X2lkIjoiMUNDQzoxMjU0OkIxQjNCRDoxNEJGMEEyOjVCNzlBQjczIiwidGltZXN0YW1wIjoxNTM0NzAwNDUxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="YWE5Zjg2MGUyNzFlMjUyNGRhNGM5ZDgwNTk5YjNlN2E0MjQ4ODg0MDNhMjY5ZDE2ZGJkYjJlOGQzZWRkZGQ5NXx7InJlbW90ZV9hZGRyZXNzIjoiMjIzLjE4Ni43NC4yMDMiLCJyZXF1ZXN0X2lkIjoiMUNDQzoxMjU0OkIxODM5NjoxNEJBQ0I5OjVCNzlBQjA2IiwidGltZXN0YW1wIjoxNTM0NzAwMzA1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_DOCKERFILE_CI_CTA,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,MARKETPLACE_RETARGETING">
 
@@ -84,7 +84,7 @@
   <meta name="octolytics-dimension-user_id" content="765375" /><meta name="octolytics-dimension-user_login" content="rayryeng" /><meta name="octolytics-dimension-repository_id" content="18779023" /><meta name="octolytics-dimension-repository_nwo" content="rayryeng/datasciencecoursera" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="18779023" /><meta name="octolytics-dimension-repository_network_root_nwo" content="rayryeng/datasciencecoursera" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/rayryeng/datasciencecoursera/blob/master/RepData_PeerAssessment1/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/rayryeng/datasciencecoursera/blob/master/RepData_PeerAssessment1/PA1_template.Rmd" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -153,7 +153,7 @@
           autocapitalize="off"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=zmF5tjQfk0NRVCw/+lIcA0owH3wes2ZTBgCe96Z5XUi3VutSxDufncWkOFsUsZEHbe9QOROPkWMN7DC3MpRoUg=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=mlivJGqffclUbANtKTRGgPcFK9XRW1RPjKH1hkZ3V5Ljbz3AmrtxF8CcFwnH18uE0NpkkNxno3+HTVvG0ppiiA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -301,7 +301,7 @@
           <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
           <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="b7Tszz0wLHP7qL7ZtqF1Fdh2qASpmaVesUae9I2T1ahlhamwC2W45utuA56Tg4vN+z6QXjA8fcC9enqrzEIT9Q==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="U/B0Zkt6SYB8ccD2liWAFTbH/3qGRXjFweoO6YUAN15ZwTEZfS/dFWy3fbGzB37NFY/HIB/goFvN1uq2xNHxAw==" />
               <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
                 Sign out
               </button>
@@ -314,7 +314,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qzfFg/hgopvobFZbs2XnZAjtcbPF1v1sD4ueKsb1w9ShBoD8zjU2Dviq6xyWRxm8K6VJ6VxzJfIDt3p1hyQFiQ==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZH5aqakl83X7HkwpL+Hl/cgR1dGpkq62GDHXKdd+SfduTx/Wn3Bn4OvY8W4Kwxsl61ntizA3digUDTN2lq+Pqg==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -352,7 +352,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OI3i4bYwMClsNXvurQpk4IdNDHf2bL7J4eyFyOd9HMuyK92TX7Qyjem2XjiVSBI9cchcEWqAgMjwVt6d2fNh5Q==" />      <input type="hidden" name="repository_id" id="repository_id" value="18779023" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tC1p8/dXxodce/35X65c/2mmCi3/GwKcCX6Ditg5VJI+i1aBHtPEI9n42C9n7CoinyNaS2P3PJ0YxNjf5rcpvA==" />      <input type="hidden" name="repository_id" id="repository_id" value="18779023" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/rayryeng/datasciencecoursera/subscription"
@@ -432,7 +432,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/rayryeng/datasciencecoursera/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/UVzLjjU+NUBMWoNL/wErJvq7l9rmEqjAsl7deNh7TlGhqb0+Nkpsb1ETkLuyDJg2HfyoWbv8WYaE6UvP1lXjA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/rayryeng/datasciencecoursera/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zt4yPi6tyCS18GZMonS+8oKI7rf1osmKNeKb9JltkNB1Hefk7qAZQAmFQgNjQIg+wRXySfjVck8tOEWuRVUqZQ==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -447,7 +447,7 @@
           3
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/rayryeng/datasciencecoursera/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YjHZ/Dv2k4leTicRohxbVZGZO1QuS2qnbKHaIbkAicPlKAFMzFjoIbczGhuHgGoJEjluLxs5wuDUcbKFRcUuHg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/rayryeng/datasciencecoursera/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZQOVIv6FmX4AMGcBN4X9B1kEEBkHCcnSYzkeqFzhY3HiGk2SCSvi1ulNWgsSGcxb2qRFYjJ7YZXb6XYMoCTErA==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -466,7 +466,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/rayryeng/datasciencecoursera/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ef3SClskZCM8MgexuaZqRcAl10CHV/W4p8TKBFDL0PJGjWeZ9NFk8u41oaR3nSxCJYXGZb57xzssosGc4MGT3A==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/rayryeng/datasciencecoursera/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XG7priEMkYc+mHNWWLrT1DJpZnS5sYjvw2lhmqELYbULHlw9jvmRVuyf1UOWgZXT18l3UYCdumxID2oCEQEimw==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -548,9 +548,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/rayryeng/datasciencecoursera/blob/a222864659ae509e98bd1536dabe45ec3042ef4f/RepData_PeerAssessment1/README.md">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/rayryeng/datasciencecoursera/blob/a222864659ae509e98bd1536dabe45ec3042ef4f/RepData_PeerAssessment1/PA1_template.Rmd">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:38cd2e2e4a742d4d3d2e3837378a89a3 -->
+  <!-- blob contrib key: blob_contributors:v21:09f6544b281f732782c2292544580d8e -->
 
   
 
@@ -594,7 +594,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/rayryeng/datasciencecoursera/blob/master/RepData_PeerAssessment1/README.md"
+               href="/rayryeng/datasciencecoursera/blob/master/RepData_PeerAssessment1/PA1_template.Rmd"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -633,12 +633,12 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/rayryeng/datasciencecoursera"><span>datasciencecoursera</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/rayryeng/datasciencecoursera/tree/master/RepData_PeerAssessment1"><span>RepData_PeerAssessment1</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/rayryeng/datasciencecoursera"><span>datasciencecoursera</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/rayryeng/datasciencecoursera/tree/master/RepData_PeerAssessment1"><span>RepData_PeerAssessment1</span></a></span><span class="separator">/</span><strong class="final-path">PA1_template.Rmd</strong>
     </div>
   </div>
 
 
-  <include-fragment src="/rayryeng/datasciencecoursera/contributors/master/RepData_PeerAssessment1/README.md" class="commit-tease commit-loader">
+  <include-fragment src="/rayryeng/datasciencecoursera/contributors/master/RepData_PeerAssessment1/PA1_template.Rmd" class="commit-tease commit-loader">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -655,9 +655,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/rayryeng/datasciencecoursera/raw/master/RepData_PeerAssessment1/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/rayryeng/datasciencecoursera/blame/master/RepData_PeerAssessment1/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/rayryeng/datasciencecoursera/commits/master/RepData_PeerAssessment1/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/rayryeng/datasciencecoursera/raw/master/RepData_PeerAssessment1/PA1_template.Rmd">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/rayryeng/datasciencecoursera/blame/master/RepData_PeerAssessment1/PA1_template.Rmd">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/rayryeng/datasciencecoursera/commits/master/RepData_PeerAssessment1/PA1_template.Rmd">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -667,13 +667,13 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/rayryeng/datasciencecoursera/edit/master/RepData_PeerAssessment1/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1qsY8OvGWxx/P/ITHmVmh0vQiJ4+aIPyxAMEaQVkLtyI0YkMbL5D/E39Sq1i0N3XgqfGBaruQmLRiPkiNkllDQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/rayryeng/datasciencecoursera/edit/master/RepData_PeerAssessment1/PA1_template.Rmd" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WpnNQkJW0Z2JV6XQ/QrRO1v0OZsll2bxpnkyefnMHPRJQZhj9hG27u+lx2lyzaHQvRtfBGWQHashjBXCW7zzFw==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/rayryeng/datasciencecoursera/delete/master/RepData_PeerAssessment1/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="x+oBQ7ftHpzx59ngZeYOfVAS/TPEK22VTa647yr5a99oKi3gblTs0DbwjSLp2S56/+Xgct8XJGl8dxkHQZeZNA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/rayryeng/datasciencecoursera/delete/master/RepData_PeerAssessment1/PA1_template.Rmd" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+Pfa05HYQBLJhFl4fhqchYOmp/5vUrHL+4DR8sR2CKLkhPtN/SMbXiLcjE7LA2WcKFlS+Gw0yxjmWiBjwfA0Eg==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -681,180 +681,240 @@
 </form>  </div>
 
   <div class="file-info">
-      169 lines (103 sloc)
+      287 lines (213 sloc)
       <span class="file-info-divider"></span>
-    7.6 KB
+    19.6 KB
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h2><a id="user-content-introduction" class="anchor" aria-hidden="true" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h2>
-<p>It is now possible to collect a large amount of data about personal
-movement using activity monitoring devices such as a
-<a href="http://www.fitbit.com" rel="nofollow">Fitbit</a>, <a href="http://www.nike.com/us/en_us/c/nikeplus-fuelband" rel="nofollow">Nike
-Fuelband</a>, or
-<a href="https://jawbone.com/up" rel="nofollow">Jawbone Up</a>. These type of devices are part of
-the "quantified self" movement -- a group of enthusiasts who take
-measurements about themselves regularly to improve their health, to
-find patterns in their behavior, or because they are tech geeks. But
-these data remain under-utilized both because the raw data are hard to
-obtain and there is a lack of statistical methods and software for
-processing and interpreting the data.</p>
-<p>This assignment makes use of data from a personal activity monitoring
-device. This device collects data at 5 minute intervals through out the
-day. The data consists of two months of data from an anonymous
-individual collected during the months of October and November, 2012
-and include the number of steps taken in 5 minute intervals each day.</p>
-<h2><a id="user-content-data" class="anchor" aria-hidden="true" href="#data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data</h2>
-<p>The data for this assignment can be downloaded from the course web
-site:</p>
-<ul>
-<li>Dataset: <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip" rel="nofollow">Activity monitoring data</a> [52K]</li>
-</ul>
-<p>The variables included in this dataset are:</p>
-<ul>
-<li>
-<p><strong>steps</strong>: Number of steps taking in a 5-minute interval (missing
-values are coded as <code>NA</code>)</p>
-</li>
-<li>
-<p><strong>date</strong>: The date on which the measurement was taken in YYYY-MM-DD
-format</p>
-</li>
-<li>
-<p><strong>interval</strong>: Identifier for the 5-minute interval in which
-measurement was taken</p>
-</li>
-</ul>
-<p>The dataset is stored in a comma-separated-value (CSV) file and there
-are a total of 17,568 observations in this
-dataset.</p>
-<h2><a id="user-content-assignment" class="anchor" aria-hidden="true" href="#assignment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Assignment</h2>
-<p>This assignment will be described in multiple parts. You will need to
-write a report that answers the questions detailed below. Ultimately,
-you will need to complete the entire assignment in a <strong>single R
-markdown</strong> document that can be processed by <strong>knitr</strong> and be
-transformed into an HTML file.</p>
-<p>Throughout your report make sure you always include the code that you
-used to generate the output you present. When writing code chunks in
-the R markdown document, always use <code>echo = TRUE</code> so that someone else
-will be able to read the code. <strong>This assignment will be evaluated via
-peer assessment so it is essential that your peer evaluators be able
-to review the code for your analysis</strong>.</p>
-<p>For the plotting aspects of this assignment, feel free to use any
-plotting system in R (i.e., base, lattice, ggplot2)</p>
-<p>Fork/clone the <a href="http://github.com/rdpeng/RepData_PeerAssessment1">GitHub repository created for this
-assignment</a>. You
-will submit this assignment by pushing your completed files into your
-forked repository on GitHub. The assignment submission will consist of
-the URL to your GitHub repository and the SHA-1 commit ID for your
-repository state.</p>
-<p>NOTE: The GitHub repository also contains the dataset for the
-assignment so you do not have to download the data separately.</p>
-<h3><a id="user-content-loading-and-preprocessing-the-data" class="anchor" aria-hidden="true" href="#loading-and-preprocessing-the-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading and preprocessing the data</h3>
-<p>Show any code that is needed to</p>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-reproducible-research-peer-assessment-assignment---week-2" class="anchor" aria-hidden="true" href="#reproducible-research-peer-assessment-assignment---week-2"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reproducible Research Peer Assessment Assignment - Week #2</h1>
+<h1><a id="user-content-introduction" class="anchor" aria-hidden="true" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h1>
+<p>With the advancement of technology and the growth of the <strong>big data</strong> movement, it is now possible to collect a large amount of data about personal movement using activity monitoring devices.  Such examples are: <a href="http://www.fitbit.com/" rel="nofollow">Fitbit</a>, <a href="http://www.nike.com/us/en_us/c/nikeplus-fuelband" rel="nofollow">Nike Fuelband</a>, or <a href="https://jawbone.com/up" rel="nofollow">Jawbone Up</a>. These kinds of devices are part of the "quantified self" movement: those who  measurements about themselves on a regular basis in order to improve their health,  find patterns in their behaviour, or because they are simply technology geeks. However, these data remain severely underused due to the fact that the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data.</p>
+<p>This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals throughout the day. The data consists of two months of data from an anonymous individual collected during the months of October and November 2012 and include the number of steps taken in 5 minute intervals each day.</p>
+<p>The overall goal of this assignment is to make some basic exploratory data analysis to assess some activity patterns with regards to the anonymous individual's walking patterns.  For each day, there are readings taken at particular 5-minute intervals.  These readings correspond to the number of <strong>steps</strong> taken by the anonymous individual between the previous 5-minute interval to the current 5-minute interval.</p>
+<h1><a id="user-content-data-layout" class="anchor" aria-hidden="true" href="#data-layout"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Layout</h1>
+<p>These intervals are assigned a unique ID which corresponds to the interval taken at that day.  As an example, the ID of <code>15</code> means that at the third observation (i.e. at the 15 minute mark), that is when the reading was taken for this day.  There are 61 days between October and November, and as such there are <code>61</code> observations recorded at the 15 minute mark.  Furthermore, there are 61 observations taken at the same time interval as they were taken each day within these two months.  As such, there are 61 observations for the 20 minute mark, the 30 minute mark, the 45 minute mark and so on.  In addition, for each day, there are <code>288</code> intervals / observations were recorded at per day.</p>
+<p>As such, the data provided to us is a 3-column data frame:</p>
 <ol>
-<li>
-<p>Load the data (i.e. <code>read.csv()</code>)</p>
-</li>
-<li>
-<p>Process/transform the data (if necessary) into a format suitable for your analysis</p>
-</li>
+<li>Column 1 - <em>steps</em>: Indicates the number of steps taken during a neighbouring 5-minute interval (between 5 minutes and 10 minutes, 10 minutes and 15 minutes, etc.).  There were some instances where there were no readings taken, most likely due to the fact that the subject was sleeping or the device was shut off.  These are coded in as <code>NA</code> values.</li>
+<li>Column 2 - <em>date</em>:  Indicates the date at which the measurement was taken.  This is in the <code>YYYY-MM-DD</code> format.</li>
+<li>Column 3 - <em>interval</em>: The aforementioned ID that determines at which 5-minute interval the reading was taken at (5, 10, 15, 20, etc.)</li>
 </ol>
-<h3><a id="user-content-what-is-mean-total-number-of-steps-taken-per-day" class="anchor" aria-hidden="true" href="#what-is-mean-total-number-of-steps-taken-per-day"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is mean total number of steps taken per day?</h3>
-<p>For this part of the assignment, you can ignore the missing values in
-the dataset.</p>
+<h1><a id="user-content-procedure" class="anchor" aria-hidden="true" href="#procedure"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Procedure</h1>
+<h2><a id="user-content-preamble" class="anchor" aria-hidden="true" href="#preamble"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preamble</h2>
+<p>There are five steps overall in our analysis:</p>
 <ol>
-<li>
-<p>Make a histogram of the total number of steps taken each day</p>
-</li>
-<li>
-<p>Calculate and report the <strong>mean</strong> and <strong>median</strong> total number of steps taken per day</p>
-</li>
+<li>Loading in and preprocessing the data</li>
+<li>Plotting a histogram of the total number of steps taken each day and calculating the mean and median of each day.</li>
+<li>Determining the average daily activity pattern: Plotting a time-series plot for each 5-minute interval (the x-axis) with the average number of steps averaged across all days (the y-axis).  This means that for each 5-minute interval, calculate the average of the 61 observations taken at each interval.  We also calculate the median of the 61 observations taken at each interval as well.</li>
+<li>Imputing missing values: There were some instances where the amount of steps read for an interval were missing.  These were coded in as <code>NA</code> values.  The presence of missing days may introduce bias into some calculations or summaries of the data.  In this step, a simple strategy was performed to replace the missing values in the dataset with a filler value.  This value was chosen to be the <strong>mean within the 5-minute interval the value was missing for</strong>.  For example, suppose on October 5, 2012, at the 10-minute interval there is missing data.  This data is filled in by the mean of whatever data was available overall (the 61 observations excluding the <code>NA</code> values) for this particular interval.  The analysis of Step #2 is repeated with similarities and differences being reported.</li>
+<li>The last part of the analysis is to split up the data into weekdays and weekends and observe if there is any difference in activity patterns between these two classes.  The same kind of plot is repeated like in Step #3, but now there are two separate plots to reflect the activity on the weekdays and weekends.</li>
 </ol>
-<h3><a id="user-content-what-is-the-average-daily-activity-pattern" class="anchor" aria-hidden="true" href="#what-is-the-average-daily-activity-pattern"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is the average daily activity pattern?</h3>
-<ol>
-<li>
-<p>Make a time series plot (i.e. <code>type = "l"</code>) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)</p>
-</li>
-<li>
-<p>Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?</p>
-</li>
-</ol>
-<h3><a id="user-content-imputing-missing-values" class="anchor" aria-hidden="true" href="#imputing-missing-values"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Imputing missing values</h3>
-<p>Note that there are a number of days/intervals where there are missing
-values (coded as <code>NA</code>). The presence of missing days may introduce
-bias into some calculations or summaries of the data.</p>
-<ol>
-<li>
-<p>Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with <code>NA</code>s)</p>
-</li>
-<li>
-<p>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</p>
-</li>
-<li>
-<p>Create a new dataset that is equal to the original dataset but with the missing data filled in.</p>
-</li>
-<li>
-<p>Make a histogram of the total number of steps taken each day and Calculate and report the <strong>mean</strong> and <strong>median</strong> total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?</p>
-</li>
-</ol>
-<h3><a id="user-content-are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="anchor" aria-hidden="true" href="#are-there-differences-in-activity-patterns-between-weekdays-and-weekends"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Are there differences in activity patterns between weekdays and weekends?</h3>
-<p>For this part the <code>weekdays()</code> function may be of some help here. Use
-the dataset with the filled-in missing values for this part.</p>
-<ol>
-<li>
-<p>Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.</p>
-</li>
-<li>
-<p>Make a panel plot containing a time series plot (i.e. <code>type = "l"</code>) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was creating using <strong>simulated data</strong>:</p>
-</li>
-</ol>
-<p><a target="_blank" href="/rayryeng/datasciencecoursera/blob/master/RepData_PeerAssessment1/instructions_fig/sample_panelplot.png"><img src="/rayryeng/datasciencecoursera/raw/master/RepData_PeerAssessment1/instructions_fig/sample_panelplot.png" alt="Sample panel plot" style="max-width:100%;"></a></p>
-<p><strong>Your plot will look different from the one above</strong> because you will
-be using the activity monitor data. Note that the above plot was made
-using the lattice system but you can make the same version of the plot
-using any plotting system you choose.</p>
-<h2><a id="user-content-submitting-the-assignment" class="anchor" aria-hidden="true" href="#submitting-the-assignment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Submitting the Assignment</h2>
-<p>To submit the assignment:</p>
-<ol>
-<li>
-<p>Commit the your completed <code>PA1_template.Rmd</code> file to the <code>master</code> branch of your git repository (you should already be on the <code>master</code> branch unless you created new ones)</p>
-</li>
-<li>
-<p>Commit your <code>PA1_template.md</code> and <code>PA1_template.html</code> files produced by processing your R markdown file with <code>knit2html()</code> function in R (from the <strong>knitr</strong> package)</p>
-</li>
-<li>
-<p>If your document has figures included (it should) then they should have been placed in the <code>figures/</code> directory by default (unless you overrided the default). Add and commit the <code>figures/</code> directory to yoru git repository.</p>
-</li>
-<li>
-<p>Push your <code>master</code> branch to GitHub.</p>
-</li>
-<li>
-<p>Submit the URL to your GitHub repository for this assignment on the course web site.</p>
-</li>
-</ol>
-<p>In addition to submitting the URL for your GitHub repository, you will
-need to submit the 40 character SHA-1 hash (as string of numbers from
-0-9 and letters from a-f) that identifies the repository commit that
-contains the version of the files you want to submit. You can do this
-in GitHub by doing the following</p>
-<ol>
-<li>
-<p>Going to your GitHub repository web page for this assignment</p>
-</li>
-<li>
-<p>Click on the "?? commits" link where ?? is the number of commits you have in the repository. For example, if you made a total of 10 commits to this repository, the link should say "10 commits".</p>
-</li>
-<li>
-<p>You will see a list of commits that you have made to this repository. The most recent commit is at the very top. If this represents the version of the files you want to submit, then just click the "copy to clipboard" button on the right hand side that should appear when you hover over the SHA-1 hash. Paste this SHA-1 hash into the course web site when you submit your assignment. If you don't want to use the most recent commit, then go down and find the commit you want and copy the SHA-1 hash.</p>
-</li>
-</ol>
-<p>A valid submission will look something like (this is just an <strong>example</strong>!)</p>
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">https</span><span class="pl-k">:</span><span class="pl-k">//</span><span class="pl-smi">github.com</span><span class="pl-k">/</span><span class="pl-smi">rdpeng</span><span class="pl-k">/</span><span class="pl-smi">RepData_PeerAssessment1</span>
+<h2><a id="user-content-loading-in-and-preprocessing-data" class="anchor" aria-hidden="true" href="#loading-in-and-preprocessing-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading in and preprocessing data</h2>
+<p>Before we begin, it is imperative that the reader set the working directory to be where this R Markdown file (and subsequently all of the data for the analysis) is located.  This can be done with the <code>setwd()</code> command.</p>
+<p>The first thing we obviously need to do is read in the data and clean it up so that it is presentable for analysis.  Dr. Roger Peng, being the most generous person on the planet, has already cleaned up the data for us.  However, the only thing that will be done is to convert the dates into a <code>POSIXlt</code> class for easier processing.  The data have been provided in a <code>.zip</code> archive file.  What we will do is unarchive the <code>.zip</code> file and read the data in using <code>read.csv()</code>.  After, the dates will be transformed into the <code>POSIXlt</code> class.</p>
+<pre lang="{r"><code>unzip("activity.zip") # Unzip archive
+dat &lt;- read.csv("activity.csv") # Read in data file
 
-<span class="pl-ii">7c376cc5447f11537f8740af8e07d6facc3d9645</span></pre></div>
+# Turn the date data into a valid date class
+# Allows for easier processing
+# Dates are in YYYY-MM-DD format
+dates &lt;- strptime(dat$date, "%Y-%m-%d")
+dat$date &lt;- dates
+
+# Keep a list of all possible days
+uniqueDates &lt;- unique(dates)
+# Keep a list of all possible intervals
+uniqueIntervals &lt;- unique(dat$interval)
+</code></pre>
+<p>As for <code>uniqueDates</code> and <code>uniqueIntervals</code>, these are variables that store a list of all possible dates and intervals.  These will primarily be used to help plot our necessary data and for data processing.</p>
+<h2><a id="user-content-what-is-the-mean-total-number-of-steps-taken-per-day" class="anchor" aria-hidden="true" href="#what-is-the-mean-total-number-of-steps-taken-per-day"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is the mean total number of steps taken per day?</h2>
+<p>First, let's plot a histogram of the total number of steps taken for each day.  Before we do this, let's split up the data into individual data frames where each data frame represents the data for a particular day.  After this, we will create a vector that accumulates all of the steps taken for each day and let it get stored into a vector.  Each element in this vector represents the total number of steps taken for a particular day (61 in total).  It should be noted that <code>NA</code> values will be ignored for the time being.  After, we will plot a histogram where the x-axis represents the particular day in question, while the y-axis denotes how many steps were taken in total for each day.  We will also calculate what the mean and median number of steps per day were as well.</p>
+<pre lang="{r"><code># Part 2 - Create a histogram of the total number of steps taken
+# each day
+# First split up the data frame for steps by day
+stepsSplit &lt;- split(dat$steps, dates$yday)
+
+# Next find the total number of steps over each day
+totalStepsPerDay &lt;- sapply(stepsSplit, sum, na.rm=TRUE)
+
+# Plot a (pseudo) histogram where the x-axis denotes the day
+# and the y-axis denotes the total number of steps taken 
+# for each day
+plot(uniqueDates, totalStepsPerDay, main="Histogram of steps taken each day", 
+     xlab="Date (October to November 2012)", ylab="Frequency", type="h", lwd=4, col="blue")
+</code></pre>
+<p>The mean steps per day are:</p>
+<pre lang="{r"><code>meanStepsPerDay &lt;- sapply(stepsSplit, mean, na.rm=TRUE)
+meanDataFrame &lt;- data.frame(date=uniqueDates, meanStepsPerDay=meanStepsPerDay, row.names=NULL)
+meanDataFrame
+</code></pre>
+<p>The median steps per day are:</p>
+<pre lang="{r"><code>medianStepsPerDay &lt;- sapply(stepsSplit, median, na.rm=TRUE)
+medianDataFrame &lt;- data.frame(date=uniqueDates, medianStepsPerDay=medianStepsPerDay, row.names=NULL)
+medianDataFrame
+</code></pre>
+<p>The median measure may look a bit puzzling, but if you observe the data for the amount of steps over some of the days, you will see that a majority of the steps taken are zero and so the mean would logically represent the 50th percentile.  Here is a sample between October 10th to October 12th of 2012:</p>
+<pre lang="{r"><code>stepsSplit[10:12]
+</code></pre>
+<h2><a id="user-content-what-is-the-average-daily-activity-pattern" class="anchor" aria-hidden="true" href="#what-is-the-average-daily-activity-pattern"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is the average daily activity pattern?</h2>
+<p>What we now need to do is split up this data again so that individual data frames represent the steps taken <strong>over each time interval</strong>.  As such, there will be a data frame for interval 5, another data frame for interval 10 and so on.  Once we extract out these individual data frames, we thus compute the mean for each time interval.  It is imperative to note that we again will ignore <code>NA</code> values.  We will thus plot the data as a time-series plot (of <code>type="l"</code>).  Once we have done this, we will locate where in the time-series plot the maximum is located and will draw a red vertical line to denote this location:</p>
+<pre lang="{r"><code># Part 3 - Time-series plot (type="l")
+# x-axis - Time interval (5, 10, 15, ...)
+# y-axis - Average number of steps taken across all days for this time interval
+
+# Split up the data according to the interval
+intervalSplit &lt;- split(dat$steps, dat$interval)
+
+# Find the average amount of steps per time interval - ignore NA values
+averageStepsPerInterval &lt;- sapply(intervalSplit, mean, na.rm=TRUE)
+
+# Plot the time-series graph
+plot(uniqueIntervals, averageStepsPerInterval, type="l",
+     main="Average number of steps per interval across all days", 
+     xlab="Interval", ylab="Average # of steps across all days", 
+     lwd=2, col="blue")
+
+# Find the location of where the maximum is
+maxIntervalDays &lt;- max(averageStepsPerInterval, na.rm=TRUE)
+maxIndex &lt;- as.numeric(which(averageStepsPerInterval == maxIntervalDays))
+
+# Plot a vertical line where the max is
+maxInterval &lt;- uniqueIntervals[maxIndex]
+abline(v=maxInterval, col="red", lwd=3)
+</code></pre>
+<p>With reference to the above plot, the interval that records the maximum number of steps averaged across all days is:</p>
+<pre lang="{r"><code>maxInterval
+</code></pre>
+<h2><a id="user-content-imputing-missing-values" class="anchor" aria-hidden="true" href="#imputing-missing-values"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Imputing missing values</h2>
+<p>First, let's calculate the total number of missing values there are.  This denotes the total number of observations that did not have any steps recorded (i.e. those rows which are <code>NA</code>)</p>
+<pre lang="{r"><code># Part 4 - Calculate total amount of missing values in the data set
+# Use complete.cases to find a logical vector that returns TRUE
+# if it is a complete row (a.k.a. no NA values) and FALSE otherwise
+completeRowsBool &lt;- complete.cases(dat$steps)
+numNA &lt;- sum(as.numeric(!completeRowsBool))
+numNA
+</code></pre>
+<p>The strategy that we will use to fill in the missing values in the data set is to replace all <code>NA</code> values with the mean of that particular 5-minute interval the observation falls on.  Now that we have devised this strategy, let's replace all of the <code>NA</code> values with the aforementioned strategy.</p>
+<pre lang="{r"><code># Modify the meanStepsPerDay vector that contains the mean steps taken
+# for this 5 minute interval
+# Each day consists of 288 intervals and there are 61 days in total
+# First remove NaN values and replace with 0.  
+# NaN values are produced when the entire day was filled with NA values
+# Essentially the mean and median would be zero anyway!
+meanStepsPerDay[is.nan(meanStepsPerDay)] &lt;- 0
+
+# Now create a replicated vector 288 times
+# The reason why we're doing this is because the slots
+# in the vector naturally line up with the interval for
+# a particular day.  Now, all we have to do is find where
+# in the data set there are missing steps, and simply do
+# a copy from one vector to the other
+meanColumn &lt;- rep(meanStepsPerDay, 288)
+
+# The steps before replacement
+rawSteps &lt;- dat$steps
+
+# Find any values that are NA in the raw steps data
+stepsNA &lt;- is.na(rawSteps)
+
+# Now replace these values with their corresponding mean
+rawSteps[stepsNA] &lt;- meanColumn[stepsNA]
+
+# Throw these back into a new data frame
+datNew &lt;- dat
+datNew$steps &lt;- rawSteps
+</code></pre>
+<p>Now that this is finished, let's plot a histogram of the new data:</p>
+<pre lang="{r"><code># Repeat Part 2 now
+# First split up the data frame for steps by day
+stepsSplitNew &lt;- split(datNew$steps, dates$yday)
+
+# Next find the total number of steps over each day
+# There should not be an NA values and so we don't need
+# to set the flag
+totalStepsPerDayNew &lt;- sapply(stepsSplitNew, sum)
+
+# Plot a (pseudo) histogram where the x-axis denotes the day
+# and the y-axis denotes the total number of steps taken 
+# for each day
+par(mfcol=c(2,1))
+# Plot the original histogram first
+plot(uniqueDates, totalStepsPerDay, main="Histogram of steps taken each day before imputing", 
+     xlab="Date (October to November 2012)", ylab="Frequency", type="h", lwd=4, col="blue")
+# Plot the modified histogram after
+plot(uniqueDates, totalStepsPerDayNew, main="Histogram of steps taken each day after imputing", 
+     xlab="Date (October to November 2012)", ylab="Frequency", type="h", lwd=4, col="blue")
+</code></pre>
+<p>With this new data, let's calculate the mean over all days (like in Part 2).  As a side-by-side comparison, we will place the data before imputing, as well as the new one in the same data frame.  Bear in mind that we have replaced all of the <code>NaN</code> values to <code>0</code>.  As such, the mean steps per day of the new data are:</p>
+<pre lang="{r"><code>meanStepsPerDayNew &lt;- sapply(stepsSplitNew, mean)
+meanDataFrameNew &lt;- data.frame(date=uniqueDates, meanStepsPerDay=meanStepsPerDay, 
+                               meanStepsPerDayNew=meanStepsPerDayNew, row.names=NULL)
+meanDataFrameNew
+</code></pre>
+<p>Like the above, the median steps per day are:</p>
+<pre lang="{r"><code>medianStepsPerDayNew &lt;- sapply(stepsSplitNew, median)
+medianDataFrameNew &lt;- data.frame(date=uniqueDates, medianStepsPerDay=medianStepsPerDay, 
+                                 medianStepsPerDayNew=medianStepsPerDayNew, row.names=NULL)
+medianDataFrameNew
+</code></pre>
+<p>By looking at the above data frames, the only values that have changed are those days where all of the observations were missing (i.e. those days having all zeroes / <code>NA</code>).  The rest of the observations have stayed the same, which actually make sense.  The reason why this is is because if you insert more data values into a vector that are the mean of that particular vector, taking the mean will still give you the same answer.  With regards to the median vector, those rows that were filled with <code>NA</code> had all of their observations on that day filled with the mean value and so the median would obviously be the mean as well.</p>
+<h2><a id="user-content-are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="anchor" aria-hidden="true" href="#are-there-differences-in-activity-patterns-between-weekdays-and-weekends"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Are there differences in activity patterns between weekdays and weekends?</h2>
+<p>With the new data set we have just created, we are going to split up the data into two data frames - one data frame consists of all steps taken on a weekday, while the other data frame consists of all steps taken on a weekend.  The following <code>R</code> code illustrates this for us:</p>
+<pre lang="{r"><code># Part 5 - Now split up the data so that it's sorted by weekday or weekend
+# We have casted the dates to a POSIXlt class so wday is part of this class
+# wday is an integer ranging from 0 to 6 that represents the day of the week
+# 0 is for Sunday, 1 is for Monday, going up to 6 for Saturday
+# Store this into wdays
+wdays &lt;- dates$wday
+
+# Create a new factor variable that classifies the day as either a weekday or weekend
+# First, create a numeric vector with 2 levels - 1 is for a weekday, 2 for a weekend
+classifywday &lt;- rep(0, 17568) # 17568 observations overall
+
+# Any days that are from Monday to Friday, set the numeric vector in these positions
+# as 1
+classifywday[wdays &gt;= 1 &amp; wdays &lt;= 5] &lt;- 1
+
+# Any days that are on Saturday or Sunday, set the numeric vector in these positions
+# as 2
+classifywday[wdays == 6 | wdays == 0] &lt;- 2
+
+# Create a new factor variable that has labels Weekdays and Weekends
+daysFactor &lt;- factor(classifywday, levels=c(1,2), labels=c("Weekdays", "Weekends"))
+
+# Create a new column that contains this factor for each day
+datNew$typeOfDay &lt;- daysFactor
+
+# Now split up into two data frames
+datWeekdays &lt;- datNew[datNew$typeOfDay == "Weekdays", ]
+datWeekends &lt;- datNew[datNew$typeOfDay == "Weekends", ]
+</code></pre>
+<p>Now that we have accomplished this, let's split up the data for each data frame so that we will have two sets of individual data frames.  One set is for weekdays and within this data frame are individual data frames.  Each data frame contains the steps for each interval recorded on a weekday.  The other set is for weekends, and within this data frame are individual data frames.  Like previously, each data frame here contains the steps for each interval recorded on a weekday.  Once we have these two sets of data frames, we will now calculate the mean amount of steps for each interval for the weekdays data frame and weekends data frame.  This will result in two vectors - one for the weekdays and the other for weekends.  The following <code>R</code> code does this for us:</p>
+<pre lang="{r"><code># Further split up the Weekdays and Weekends into their own intervals
+datSplitWeekdays &lt;- split(datWeekdays$steps, datWeekdays$interval)
+datSplitWeekends &lt;- split(datWeekends$steps, datWeekends$interval)
+
+# Find the average for each interval
+meanStepsPerWeekdayInterval &lt;- sapply(datSplitWeekdays, mean)
+meanStepsPerWeekendInterval &lt;- sapply(datSplitWeekends, mean)
+
+par(mfcol=c(2,1))
+plot(uniqueIntervals, meanStepsPerWeekdayInterval, type="l",
+     main="Average number of steps per interval across all weekdays", 
+     xlab="Interval", ylab="Average # of steps across all weekdays", 
+     lwd=2, col="blue")
+plot(uniqueIntervals, meanStepsPerWeekendInterval, type="l",
+     main="Average number of steps per interval across all weekends", 
+     xlab="Interval", ylab="Average # of steps across all weekends", 
+     lwd=2, col="blue")
+</code></pre>
+<p>What is interesting about this plot is that it very much sums up the activity that any normal person would undergo depending on whether it is a weekday or weekend.  For both days, the intervals between <code>0</code> and about <code>525</code> are uniform.  This most likely represents when the subject was sleeping.  The differences start at between <code>525</code> and roughly <code>800</code>.  On the weekdays, movement is most likely attributed to the subject getting ready to go to work or starting their day.  On the weekends, movement is less frequent.  This could be attributed to the subject sleeping in and perhaps making breakfast to start their day.</p>
+<p>There is a huge jump at roughly <code>830</code> for the weekdays.  This could be attributed to the subject walking or making their way to work.  On the weekends this behaviour is mimicked as well, perhaps due to making their way to begin engaging in some extracurricular activities that the subject is engaged in.  Now where it really gets different is at roughly the <code>1000</code> mark.  On the weekdays, this could be reflected with the subject being at work and there is not much movement.  A good indication of this behaviour could be attributed to the fact that the subject has a low stress job that requires minimal movement.  On the weekends, the behaviour varies wildly.  This could be attributed to the extra amount of movement required to engage in such extracurricular activities.</p>
+<p>Where it starts to become similar again is at roughly the <code>1700</code> mark. This could mean that during the weekdays, the subject is getting ready to head home for the day which is why there is an increased amount of moment in comparison to the interval between <code>1000</code> to <code>1700</code>.  At the same time with the weekends, there is a relative amount of increased moment after the <code>1700</code> mark but it could reflect that at this time of day, the subject may be socializing.</p>
+<p>All in all, this seems to reflect the behaviour of an individual going through a normal work day during the weekdays, and having a relaxing time on the weekends.</p>
 </article>
   </div>
 
@@ -883,7 +943,7 @@ in GitHub by doing the following</p>
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.27832s from unicorn-7967df4c7c-4prnc">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.21398s from unicorn-7967df4c7c-fssph">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
